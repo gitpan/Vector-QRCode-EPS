@@ -28,7 +28,7 @@ no_index:
 provides:
   Vector::QRCode::EPS:
     file: lib/Vector/QRCode/EPS.pm
-    version: 0.01
+    version: 0.02
 requires:
   PostScript::Simple: 0
   Text::QRCode: 0
@@ -37,4 +37,4 @@ resources:
   bugtracker: https://github.com/ytnobody/Vector-QRCode-EPS/issues
   homepage: https://github.com/ytnobody/Vector-QRCode-EPS
   repository: git://github.com/ytnobody/Vector-QRCode-EPS.git
-version: 0.01
+version: 0.02
