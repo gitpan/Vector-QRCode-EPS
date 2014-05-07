@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Minilla/v0.14.1, CPAN::Meta::Converter version 2.132140'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,7 +28,7 @@ no_index:
 provides:
   Vector::QRCode::EPS:
     file: lib/Vector/QRCode/EPS.pm
-    version: 0.02
+    version: 0.03
 requires:
   PostScript::Simple: 0
   Text::QRCode: 0
@@ -37,4 +37,4 @@ resources:
   bugtracker: https://github.com/ytnobody/Vector-QRCode-EPS/issues
   homepage: https://github.com/ytnobody/Vector-QRCode-EPS
   repository: git://github.com/ytnobody/Vector-QRCode-EPS.git
-version: 0.02
+version: 0.03
