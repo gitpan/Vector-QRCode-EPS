@@ -3,18 +3,16 @@ abstract: 'A generator class for vector data of QRCode'
 author:
   - 'ytnobody <ytnobody@gmail.com>'
 build_requires:
-  Test::Differences: 0
-  Test::More: 0.98
+  Test::More: '0.98'
+  Test::Number::Delta: '0'
 configure_requires:
-  CPAN::Meta: 0
-  CPAN::Meta::Prereqs: 0
-  Module::Build: 0.38
+  Module::Build: '0.38'
 dynamic_config: 0
-generated_by: 'Minilla/v1.0.0, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.141520'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Vector-QRCode-EPS
 no_index:
   directory:
@@ -29,13 +27,15 @@ no_index:
 provides:
   Vector::QRCode::EPS:
     file: lib/Vector/QRCode/EPS.pm
-    version: 0.05
+    version: '0.06'
 requires:
-  PostScript::Simple: 0.08
-  Text::QRCode: 0
-  perl: 5.008005
+  PostScript::Simple: '0.08'
+  Text::QRCode: '0'
+  perl: '5.008005'
 resources:
   bugtracker: https://github.com/ytnobody/Vector-QRCode-EPS/issues
   homepage: https://github.com/ytnobody/Vector-QRCode-EPS
   repository: git://github.com/ytnobody/Vector-QRCode-EPS.git
-version: 0.05
+version: '0.06'
+x_contributors:
+  - 'ytnobody <ytnobody@ytnobody.net>'

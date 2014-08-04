@@ -9,5 +9,6 @@ minil.toml
 t/00_compile.t
 t/11_generate.t
 t/12_generate_with_qrcode_options.t
+t/EPS/Util.pm
 META.yml
 MANIFEST

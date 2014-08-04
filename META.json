@@ -4,7 +4,7 @@
       "ytnobody <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v1.0.0",
+   "generated_by" : "Minilla/v2.1.1",
    "license" : [
       "perl_5"
    ],
@@ -28,8 +28,6 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "CPAN::Meta" : "0",
-            "CPAN::Meta::Prereqs" : "0",
             "Module::Build" : "0.38"
          }
       },
@@ -51,15 +49,15 @@
       },
       "test" : {
          "requires" : {
-            "Test::Differences" : "0",
-            "Test::More" : "0.98"
+            "Test::More" : "0.98",
+            "Test::Number::Delta" : "0"
          }
       }
    },
    "provides" : {
       "Vector::QRCode::EPS" : {
          "file" : "lib/Vector/QRCode/EPS.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -73,5 +71,8 @@
          "web" : "https://github.com/ytnobody/Vector-QRCode-EPS"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06",
+   "x_contributors" : [
+      "ytnobody <ytnobody@ytnobody.net>"
+   ]
 }
