@@ -57,7 +57,7 @@
    "provides" : {
       "Vector::QRCode::EPS" : {
          "file" : "lib/Vector/QRCode/EPS.pm",
-         "version" : "0.06"
+         "version" : "0.07"
       }
    },
    "release_status" : "stable",
@@ -71,7 +71,7 @@
          "web" : "https://github.com/ytnobody/Vector-QRCode-EPS"
       }
    },
-   "version" : "0.06",
+   "version" : "0.07",
    "x_contributors" : [
       "ytnobody <ytnobody@ytnobody.net>"
    ]
